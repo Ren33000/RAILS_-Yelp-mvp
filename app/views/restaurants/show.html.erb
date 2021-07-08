@@ -1,0 +1,11 @@
+<div class="container">
+    <%#  <%= link_to "Edit this task", edit_task_path, class: "btn btn-success" %>
+    <h1><%= @restaurants.name %></h1>
+    <h2><%= @restaurants.category %> </h2>
+    <h4><%= @restaurants.address %></h4>
+    <h4><%= @restaurants.phone_number %></h4>
+
+    <%# <p>This task is completed</p> %>
+
+    <%= link_to "Back to list", restaurants_path, class: "btn btn-primary" %>
+</div>
